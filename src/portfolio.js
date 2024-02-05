@@ -20,27 +20,27 @@ const illustration = {
 };
 
 const greeting = {
-  username: "hash3liZer",
-  title: "Hey 👋 Its Shameer Kashif",
+  username: "textq3",
+  title: "Hey 👋 Its Usama Gul",
   subTitle: emoji(
-    "🚀 A Guy in Cyber Security. Crafting Code & Breaking Applications. {/**/}."
+    "🚀 A Guy in Cyber Security.Guardian of Code, Sentinel of Security: Crafting robust solutions, breaking vulnerabilities, and securing the digital frontier. {/**/}."
   ),
   resumeLink:
-    "https://blog.shameerkashif.me/resume/", // Set to empty to hide the button
+ 	"empty" , // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/hash3liZer",
-  linkedin: "https://www.linkedin.com/in/hash3lizer/",
-  gmail: "me@shameerkashif.me",
+  github: "https://github.com/textq3",
+  linkedin: "https://www.linkedin.com/in/usama-gul/",
+  gmail: "gul645690@gmail.com",
   gitlab: false,
   facebook: false,
   medium: "",
-  instagram: "https://instagram.com/shameerkashif_",
-  stackoverflow: "https://stackoverflow.com/users/8030629/shameer-kashif",
+  instagram: "https://www.instagram.com/usamagul3238/",
+  stackoverflow: false,
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -50,14 +50,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I love to code, build, drink, break, probably drink again and build it back again. Maybe the loop i am in love with. View my stack below: ",
+  subTitle: "Coding and Security enthusiast who loves building, breaking, and the delightful loop in between. Check out my tech stack below ",
   skills: [
     emoji(
       "⚡ Deliver high-end quality solutions as per your requirements (API, Web, Desktop, Linux, Windows, Cyber Security, Cloud)"
     ),
     emoji("⚡ Deliver and manage cloud applications & services on AWS, Azure, GCP & DigitalOcean"),
     emoji(
-      "⚡ Deliver high-end automated solutions for your business needs (CI/CD, DevSecOps, Automation, Scripting, Scraping)"
+      "⚡Safeguarding digital landscapes through Penetration Testing, Vulnerability Assessment, Network Security, Application Security, Incident Response, Security Assessment & Testing, Information Security, and Malware Analysis for resilient cybersecurity )"
     )
   ],
 
@@ -147,24 +147,15 @@ const educationInfo = {
       logo: require("./assets/images/airunilogo.png"),
       subHeader: "Bachelors of Science in Cyber Security",
       duration: "2019 - 2023",
-      desc: "Completed 4 years of the program. Took courses about Software Engineering, Web Security, Operating Systems, Programming Practices & Principles, ...",
+      desc: "Completed 4 years of the program. Took courses about Network Security, Cryptography, Web Security, Operating Systems, Programming Practices & Principles, ...",
       descBullets: [
-        "Acted as Vice-President of Air University Bits & Bytes Society",
-        "Organizated national level CTF Hackathon",
-        "Won 2 cateogires in national level CTF Hackathon by Ignite and Ministry of IT (2021)",
-        "Held various cyber security workshops and seminars for students."
+        "Acted as Blue-Team Lead of Air University Cyber Security Society",
+        "Organizated National level CTF Hackathon",
+        "Qualified for the Region  level CTF Hackathon by Ignite and Ministry of IT (2021-2022)",
+        "Held various Cyber Security workshops and seminars for students."
       ]
     },
-    {
-      schoolName: "Punjab College",
-      logo: require("./assets/images/punjablogo.png"),
-      subHeader: "ICS (Computer Science)",
-      duration: "2017 - 2019",
-      desc: "Complted 2 of ICS in comuter science. Took courses about Programming, Web Development and OOP...",
-      descBullets: [
-        "Got 2nd position in the 1st year of college",
-      ]
-    }
+
   ]
 };
 
@@ -174,7 +165,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "FULL STACK | API", //Insert stack or technology you have experience in
+      Stack: "Python Development", //Insert stack or technology you have experience in
       progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
@@ -183,7 +174,7 @@ const techStack = {
     },
     {
       Stack: "DEVOPS | CLOUD",
-      progressPercentage: "65%"
+      progressPercentage: "75%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -195,38 +186,38 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Application Security Engineer (Appsec)",
-      company: "Trustline",
+      role: "Cyber Security Consultant (Cryptography || AWS Security || Python)",
+      company: "Spectiv labs",
       companylogo: require("./assets/images/trustlinelogo.jpeg"),
       date: "October 2023 – Present",
-      desc: "Full Time | Based in Riyadh, KSA (Remote)",
+      desc: "Full Time Based in USA (Remote)",
     },
     {
       role: "Cyber Security Specialist",
-      company: "The COZM",
+      company: "Prismware Technologies",
       companylogo: require("./assets/images/cozmlogo.jpeg"),
-      date: "July 2023 – Present",
-      desc: "Contract | Based in London, United Kingdom (Remote)",
+      date: "July 2023 – Sept 2023",
+      desc: "Contract Based in Canada (Remote)",
     },
     {
-      role: "DevSecOps Engineer",
-      company: "Horizon Tech LTD",
+      role: "Digital Forensics Consultant",
+      company: "Filmon ltd",
       companylogo: require("./assets/images/horizonlogo.png"),
-      date: "December 2021 – Present",
-      desc: "Full Time | Based in Islamabad, Pakistan (On Site)",
+      date: "December 2020 – Present",
+      desc: "Part time",
     },
     {
-      role: "Full Stack Developer | Cyber Security",
-      company: "Contract (Brazil)",
+      role: "Cyber Security Consultant(Digital and Network Security) ",
+      company: "AirOverflow",
       companylogo: require("./assets/images/contractlogo.png"),
-      date: "2020 – 2022",
-      desc: "Contract | Based in Sao Palo, Brazil (Remote)",
+      date: "2022 – 2023",
+      desc: "Contract (Remote)",
     },
     {
       role: "Freelance Development & Pentest",
       company: "Upwork/Fiverr",
       companylogo: require("./assets/images/upworklogo.png"),
-      date: "2019 - 2023",
+      date: "2020 - Present",
       desc: "Freelance | Based on Upwork And Fiverr",
     }
   ]
@@ -237,7 +228,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -248,7 +239,7 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/airoverflowlogo.png"),
-      projectName: "AirOverflow (Startup)",
+      projectName: "AirOverflow",
       projectDesc: "Worked on the platforms for CTF challenges and real time cyber simulations",
       footerLink: [
         //  you can add extra buttons here.
@@ -260,17 +251,17 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/subrake.png"),
-      projectName: "Subrake",
-      projectDesc: "A Subdomain Reconnaissnace toolkit that I developed in Python",
+      projectName: "Pakistan Cyber Security Challenge Development",
+      projectDesc: "I deveolped Digital forensics and Network Security Challenges in Pakistan First Ever Cyber Security Hackathon",
       footerLink: [
         {
           name: "Visit Project",
-          url: "https://github.com/hash3liZer/subrake"
+          url: "https://airoverflow.com/portfolio/"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -283,71 +274,58 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Winner in National Hackathon 2023 Pakistan",
+      title: "Developer of Pakistan First Cyber Security Hackathon",
       subtitle:
-        "Won national Pakistan hackathon 2023. Got cash prize, vouchers and sponsored tours",
+        "I was part of Development team of Pakistan First Cyber Security Hackathon",
       image: require("./assets/images/hackathon23.jpeg"),
-      imageAlt: "Hackathon'23",
+      imageAlt: "Hackathon'22",
       footerLink: [
         {
-          name: "Ceremory at PC Hotel, Islamabad",
+          name: "Ceremory at Air university, Islamabad",
           url: "#"
         },
       ]
     },
     {
-      title: "2nd position in CTF PUCON'23 (On-line, based in Lahore)",
+      title: "Blue Team Lead in AUCSS",
       subtitle:
-        "Me and my team member Ali Taqi Wajid were able to secure 2nd position in this on-line CTF of Lahore.",
+        "I was awareded this Cert of Appreciation for Leading the Blue team",
       image: require("./assets/images/pucon.jpeg"),
-      imageAlt: "PUCON'23",
+      imageAlt: "BlueTeam Lead",
       footerLink: [
         {
-          name: "Award received by from PUCON'23 CTF",
+          name: "Award received from Dean of Cyber Department ",
           url: "#"
         },
       ]
     },
     {
-      title: "1st Runner Up for Network Exploitation (Pakistan Hackathon 2021)",
+      title: "",
       subtitle:
-        "Got 2nd position in the Network Exploitation category of Pakistan Hackathon 2021",
+        "Appreciation from DEAN of Cyber Security Dept for my services in past 4 years",
       image: require("./assets/images/hackathon.jpeg"),
       imageAlt: "Ignite hackathon",
       footerLink: [
         {
-          name: "President Arif Alvi handing us the award",
+          name: "HOD and DEAN handing  the award",
           url: "https://ignite.org.pk/digital-pakistan-grand-finale-awards-ceremony/"
         },
       ]
     },
     {
-      title: "2nd Runner Up for Speed Programming (Pakistan Hackathon 2021)",
+      title: "Regional Runner Up for Hackathon 2022)",
       subtitle:
-        "Gpt 3rd position in the Speed Programming category of Pakistan Hackathon 2021",
+	     "I Qualified for the regional CTF after competing teams all over Pakistan",
       image: require("./assets/images/hackathon2.png"),
       imageAlt: "Ignite Hackathon",
       footerLink: [
         {
-          name: "President Arif Alvi handing us the award",
+          name: "we busy in finding flags",
           url: "https://ignite.org.pk/digital-pakistan-grand-finale-awards-ceremony/"
         },
       ]
     },
-
-    {
-      title: "Top Rated Plus Badge",
-      subtitle: "Top Rated Plus Badge on Upwork",
-      image: require("./assets/images/toprated.png"),
-      imageAlt: "Top Rated PLus",
-      footerLink: [
-        {
-          name: "More about Top Rated plus",
-          url: "https://support.upwork.com/hc/en-us/articles/360049702614-Upwork-s-Talent-Badges"
-        }
-      ]
-    }
-  ],
+   ],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -384,7 +362,7 @@ const blogSection = {
         "Here's a small guide to help you downloading images from website and web pages in a bulk amount through python. This guide will help you through the basics of downloading images from a web source in a bulk by extractin"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -423,8 +401,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3192205651",
-  email_address: "me@shameerkashif.me"
+  number: "+92-3045435429",
+  email_address: "gul645690@gmail.com"
 };
 
 // Twitter Section
@@ -434,7 +412,7 @@ const twitterDetails = {
   display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
